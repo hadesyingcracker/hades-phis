@@ -1,0 +1,34 @@
+{"level":"info","time":"2021-12-10T10:01:31Z","message":"Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps"}
+{"level":"info","time":"2021-12-10T10:01:31Z","message":"Requesting new quick Tunnel on trycloudflare.com..."}
+{"level":"info","time":"2021-12-10T10:01:34Z","message":"+--------------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2021-12-10T10:01:34Z","message":"|  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |"}
+{"level":"info","time":"2021-12-10T10:01:34Z","message":"|  https://tampa-surf-requirements-farm.trycloudflare.com                                    |"}
+{"level":"info","time":"2021-12-10T10:01:34Z","message":"+--------------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2021-12-10T10:01:34Z","message":"Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]"}
+{"level":"info","time":"2021-12-10T10:01:34Z","message":"Version 2021.11.0"}
+{"level":"info","time":"2021-12-10T10:01:34Z","message":"GOOS: linux, GOVersion: devel +a84af465cb Mon Aug 9 10:31:00 2021 -0700, GoArch: arm64"}
+{"level":"info","time":"2021-12-10T10:01:34Z","message":"Settings: map[logfile:.cld.log protocol:quic url:127.0.0.1:8080]"}
+{"level":"info","autoupdateFreq":86400000,"time":"2021-12-10T10:01:34Z","message":"Autoupdate frequency is set"}
+{"level":"info","time":"2021-12-10T10:01:34Z","message":"Generated Connector ID: 8833b58d-1e2b-46a0-9cdc-0f2ae0fe9206"}
+{"level":"error","error":"lookup protocol-v2.argotunnel.com on 8.8.4.4:53: read udp 10.68.210.254:38883->8.8.4.4:53: i/o timeout","time":"2021-12-10T10:01:54Z","message":"Unable to lookup protocol. Defaulting to `http2`. If this fails, you can set `--protocol h2mux` in your cloudflared command."}
+{"level":"info","time":"2021-12-10T10:01:54Z","message":"Initial protocol http2"}
+{"level":"info","time":"2021-12-10T10:01:54Z","message":"Starting metrics server on 127.0.0.1:42691/metrics"}
+{"level":"info","connIndex":0,"location":"SIN","time":"2021-12-10T10:01:56Z","message":"Connection f34aa5d0-dd9f-43c1-a6c4-aaba4b4f405b registered"}
+{"level":"info","connIndex":1,"location":"HKG","time":"2021-12-10T10:01:57Z","message":"Connection 1eb2c6c3-1526-4a7d-b3c9-457fdff3fccf registered"}
+{"level":"info","connIndex":2,"location":"SIN","time":"2021-12-10T10:01:58Z","message":"Connection ab065fb7-8053-47ea-bc29-1d66f81c4c2a registered"}
+{"level":"info","connIndex":3,"location":"HKG","time":"2021-12-10T10:01:59Z","message":"Connection 3b391c03-36d0-4671-a78e-67ceeb85c564 registered"}
+{"level":"info","connIndex":1,"time":"2021-12-10T10:05:46Z","message":"Lost connection with the edge"}
+{"level":"error","connIndex":1,"error":"connection with edge closed","time":"2021-12-10T10:05:46Z","message":"Serve tunnel error"}
+{"level":"info","connIndex":1,"time":"2021-12-10T10:05:46Z","message":"Retrying connection in up to 1s seconds"}
+{"level":"info","connIndex":3,"time":"2021-12-10T10:05:46Z","message":"Lost connection with the edge"}
+{"level":"info","connIndex":1,"time":"2021-12-10T10:05:46Z","message":"Unregistered tunnel connection"}
+{"level":"error","connIndex":3,"error":"connection with edge closed","time":"2021-12-10T10:05:46Z","message":"Serve tunnel error"}
+{"level":"info","connIndex":3,"time":"2021-12-10T10:05:46Z","message":"Unregistered tunnel connection"}
+{"level":"info","connIndex":3,"time":"2021-12-10T10:05:46Z","message":"Retrying connection in up to 1s seconds"}
+{"level":"info","connIndex":0,"time":"2021-12-10T10:05:46Z","message":"Lost connection with the edge"}
+{"level":"error","connIndex":0,"error":"connection with edge closed","time":"2021-12-10T10:05:46Z","message":"Serve tunnel error"}
+{"level":"info","connIndex":0,"time":"2021-12-10T10:05:46Z","message":"Retrying connection in up to 1s seconds"}
+{"level":"info","connIndex":0,"time":"2021-12-10T10:05:46Z","message":"Unregistered tunnel connection"}
+{"level":"info","connIndex":1,"location":"HKG","time":"2021-12-10T10:05:49Z","message":"Connection 2f7f7744-2e36-4bbd-8729-5627ae3180a7 registered"}
+{"level":"info","connIndex":3,"location":"HKG","time":"2021-12-10T10:05:49Z","message":"Connection 21ae5016-3898-42fb-a9eb-f93026e7f45d registered"}
+{"level":"info","connIndex":0,"location":"SIN","time":"2021-12-10T10:05:49Z","message":"Connection f938f5cb-3f89-4e96-99ab-cb5ac2bb7631 registered"}
