@@ -16,7 +16,7 @@ Tool phising facebook, gmail, and instagram
    
 3. Give permission for app
    ```sh
-   chmod hadesphiser.sh
+   chmod +x hadesphiser.sh
    ```
  
 4. Run app
